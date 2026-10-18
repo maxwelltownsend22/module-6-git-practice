@@ -1,6 +1,6 @@
 # Git and GitHub: A Practical Workflow Guide
 
-This guide walks through a small, repeatable workflow for managing a project with Git and GitHub. It is written for an individual developer and assumes Git is installed and a GitHub account is available.
+This guide presents a clear, repeatable Git and GitHub workflow for individual developers. It assumes Git is installed and a GitHub account is available.
 
 ## Contents
 

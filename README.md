@@ -1,6 +1,6 @@
 # Git and GitHub: A Practical Workflow Guide
 
-This guide explains practical Git and GitHub habits for managing an individual project. It assumes Git is installed and you have a GitHub account.
+This guide presents a practical, repeatable Git and GitHub workflow for managing an individual project. It assumes Git is installed and you have a GitHub account.
 
 ## Contents
 
@@ -133,6 +133,10 @@ git log --oneline --graph --decorate --all
 ```
 
 Use `git show` to inspect a particular commit, or `git diff main...feature/update-guide` to compare a feature branch with its base. On GitHub, Issues and a Project Board help track tasks, while **Pull requests** records review and merge activity.
+
+## Conflict Resolution Record
+
+Branches `feature/conflict-wording-a` and `feature/conflict-wording-b` were created from the same `main` commit and changed the same introduction sentence. After branch A was merged through PR #4, merging `origin/main` into branch B caused a content conflict in this README. I compared both versions and combined their emphasis on practical, repeatable Git and GitHub guidance for an individual project. I removed the conflict markers from the introduction and checked the final diff before committing the resolution.
 
 ## Project Files
 

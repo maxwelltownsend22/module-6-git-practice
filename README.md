@@ -149,7 +149,7 @@ Branches `feature/conflict-wording-a` and `feature/conflict-wording-b` were crea
 - [GitHub Project board](https://github.com/users/maxwelltownsend22/projects/1/views/1)
 - [Guide issue #1](https://github.com/maxwelltownsend22/module-6-git-practice/issues/1)
 - [Conflict-resolution issue #2](https://github.com/maxwelltownsend22/module-6-git-practice/issues/2)
-- [README links issue #3](https://github.com/maxwelltownsend22/module-6-git-practice/issues/3)
+- [README links issue #6](https://github.com/maxwelltownsend22/module-6-git-practice/issues/6)
 
 ## Screencast
 

@@ -84,7 +84,14 @@ git pull origin main
 A merge conflict occurs when Git cannot automatically combine overlapping edits. The following sequence creates that situation with two branches editing the same line in `README.md`:
 
 1. From an up-to-date `main`, create `feature/guide-wording-a`. Change one sentence in `README.md`, commit it, and push the branch.
-2. Still starting from the same `main`, create `feature/guide-wording-b`. Change that same sentence differently, commit the change, and push this branch too.
+2. Return to the original `main` commit and create the second branch from there, not from branch A:
+
+	```bash
+	git switch main
+	git switch -c feature/guide-wording-b
+	```
+
+	Change the same sentence differently, commit the change, and push this branch too.
 3. Open and merge the pull request for `feature/guide-wording-a` into `main`.
 4. Update the second branch with the new `main`:
 
